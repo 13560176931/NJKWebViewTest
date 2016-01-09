@@ -16,6 +16,8 @@
 		20B7D3421C40EC150039957C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20B7D3401C40EC150039957C /* LaunchScreen.storyboard */; };
 		20B7D34D1C40EC150039957C /* NJKWebViewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B7D34C1C40EC150039957C /* NJKWebViewTestTests.m */; };
 		20B7D3581C40EC150039957C /* NJKWebViewTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B7D3571C40EC150039957C /* NJKWebViewTestUITests.m */; };
+		20B7D3691C40EC250039957C /* NJKWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B7D3661C40EC250039957C /* NJKWebViewProgress.m */; };
+		20B7D36A1C40EC250039957C /* NJKWebViewProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B7D3681C40EC250039957C /* NJKWebViewProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		20B7D3531C40EC150039957C /* NJKWebViewTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NJKWebViewTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20B7D3571C40EC150039957C /* NJKWebViewTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NJKWebViewTestUITests.m; sourceTree = "<group>"; };
 		20B7D3591C40EC150039957C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20B7D3651C40EC250039957C /* NJKWebViewProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJKWebViewProgress.h; sourceTree = "<group>"; };
+		20B7D3661C40EC250039957C /* NJKWebViewProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJKWebViewProgress.m; sourceTree = "<group>"; };
+		20B7D3671C40EC250039957C /* NJKWebViewProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJKWebViewProgressView.h; sourceTree = "<group>"; };
+		20B7D3681C40EC250039957C /* NJKWebViewProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJKWebViewProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,10 @@
 		20B7D32E1C40EC150039957C /* NJKWebViewTest */ = {
 			isa = PBXGroup;
 			children = (
+				20B7D3651C40EC250039957C /* NJKWebViewProgress.h */,
+				20B7D3661C40EC250039957C /* NJKWebViewProgress.m */,
+				20B7D3671C40EC250039957C /* NJKWebViewProgressView.h */,
+				20B7D3681C40EC250039957C /* NJKWebViewProgressView.m */,
 				20B7D3321C40EC150039957C /* AppDelegate.h */,
 				20B7D3331C40EC150039957C /* AppDelegate.m */,
 				20B7D3351C40EC150039957C /* ViewController.h */,
@@ -276,6 +286,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20B7D3691C40EC250039957C /* NJKWebViewProgress.m in Sources */,
+				20B7D36A1C40EC250039957C /* NJKWebViewProgressView.m in Sources */,
 				20B7D3371C40EC150039957C /* ViewController.m in Sources */,
 				20B7D3341C40EC150039957C /* AppDelegate.m in Sources */,
 				20B7D3311C40EC150039957C /* main.m in Sources */,

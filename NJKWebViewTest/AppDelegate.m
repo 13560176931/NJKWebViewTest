@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    ViewController * viewVC = [[ViewController alloc]init];
+    viewVC.title = @"网页进度条测试";
+    
+    UINavigationController * viewNC = [[UINavigationController alloc]initWithRootViewController:viewVC];
+    
+    self.window.rootViewController = viewNC;
+    
     return YES;
 }
 
